@@ -11,8 +11,11 @@ build:
       value: "example 01"
 run:
   command: python server.py
+  network: 
+    port: 8080
+    env: MY_APP_PORT
   env:
     - name: NAME
-    value: "Mohanad"
+      value: "Mohanad"
     - name: MY_VAR_EXAMPLE
-    value: "example 02"
+      value: "example 02"
