@@ -7,7 +7,7 @@ build:
 run:
   command: python server.py
   network: 
-    port: 8080
+    port: 1111
     env: MY_APP_PORT
   env:
     - name: NAME
