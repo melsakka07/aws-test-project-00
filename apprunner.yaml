@@ -4,18 +4,13 @@ build:
   commands:
     build:
       - pip install -r requirements.txt
-  env:
-    - name: NAME_01
-      value: "Yara"
-    - name: MY_VAR_EXAMPLE_01
-      value: "example 01"
 run:
   command: python server.py
   network: 
     port: 8080
     env: MY_APP_PORT
   env:
-    - name: NAME_02
-      value: "Mohanad"
+    - name: NAME
+      value: " Yara ElSakka :-) "
     - name: MY_VAR_EXAMPLE_02
       value: "example 02"
