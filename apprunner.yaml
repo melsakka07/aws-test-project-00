@@ -7,10 +7,10 @@ build:
 run:
   command: python server.py
   network: 
-    port: 1111
+    port: 8080
     env: MY_APP_PORT
   env:
     - name: NAME
       value: " Yara ElSakka :-) "
-    - name: PORT
+    - name: MY_ENV_VAR
       value: "2222"
