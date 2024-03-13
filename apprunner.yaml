@@ -12,5 +12,5 @@ run:
   env:
     - name: NAME
       value: " Yara ElSakka :-) "
-    - name: MY_VAR_EXAMPLE_02
-      value: "example 02"
+    - name: PORT
+      value: "2222"
