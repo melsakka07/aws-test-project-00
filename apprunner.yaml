@@ -8,7 +8,7 @@ run:
   command: python server.py
   network: 
     port: 8080
-    env: MY_APP_PORT  
+    env: PORT  
   env:
     - name: NAME
     value: "Yara ElSakka"
